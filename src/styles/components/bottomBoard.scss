@@ -1,0 +1,26 @@
+
+.bottomBoard{
+    height: 60vh;
+    background: $blue-cherk;
+    width: 100%;
+    color:$white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px){
+   .bottomBoard{
+        height: 30vh;
+        background: $blue-cherk;
+        width: 100%;
+        color:$white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 3vw;
+    }
+}

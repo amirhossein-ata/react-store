@@ -1,0 +1,27 @@
+.categoryPicker{
+    margin: $m-size 0 $m-size 0 ;
+    font: italic;
+    text-align: center;
+}
+.categories{
+    font-size:2vw;
+    margin: $m-size auto $m-size auto ;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .categories{
+        font-size:3vw;
+        margin: $m-size auto $m-size auto ;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;    
+    }
+}

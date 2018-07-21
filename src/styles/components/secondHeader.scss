@@ -1,0 +1,52 @@
+.secondHeader{
+    height: 50vh;
+    width: 80%;
+    margin:0 auto 0 auto;
+    padding-top:$m-size; 
+    display: flex;
+    justify-content: center ;
+    
+
+}
+
+.secondHeader__item1{
+    height: 100%;
+    width:32%;
+    background-color: $dark-blue;
+}
+.secondHeader__item2{
+    height: 100%;
+    width:32%;
+    margin:0 1% 0 1% ;
+    background-color: $pink;
+}
+.secondHeader__item3{
+    height: 100%;
+    width:32%;
+}
+.secondHeader__item3__part1{
+    height: 50%;
+    width:100%;
+    background-color: $mellow-red;
+}
+.secondHeader__item3__part2{
+    margin-top:2%; 
+    height: 48%;
+    width:100%;
+    background-color: $dark-orange;
+}
+
+@media only screen and (max-width: 600px){
+    .secondHeader{
+        height: 25vh;
+        width: 80%;
+    
+        margin-top:$m-size;
+        margin-left: auto ;
+        margin-right: auto;
+        display: flex;
+        justify-content: center ;
+        
+    
+    }
+}

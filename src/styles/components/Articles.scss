@@ -1,0 +1,38 @@
+.articles{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.articles__item{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.articles__item__image{
+    height: 100%;
+    width: 50%;
+    background:$purple;
+}
+.articles__item__text{
+    background: $white;
+    text-align: center;
+    padding: 2px;
+    font-size:2vw;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+.articles__title{
+    text-align: center
+}
+@media only screen and (max-width: 600px){
+   .articles{
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}

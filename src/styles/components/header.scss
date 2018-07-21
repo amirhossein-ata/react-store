@@ -1,0 +1,28 @@
+.header{
+    color:$white;
+    height: 50vh;
+    width: 100%;
+    margin: $m-size auto 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #9999ff ;  
+
+}
+.header__text{
+    font-size: 4vw;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        color:$white;
+        height: 25vh;
+        width: 100%;
+        margin: $m-size auto $m-size auto ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:  #9999ff ;  
+    
+    }
+}
