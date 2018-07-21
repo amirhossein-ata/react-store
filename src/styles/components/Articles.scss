@@ -4,16 +4,20 @@
     justify-content: space-around;
     align-items: center;
 }
-.articles__item{
+.articles__parent{
     width: 40%;
     height: 70%;
+}
+.articles__item{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 .articles__item__image{
     height: 100%;
     width: 50%;
-    background:$purple;
+    background:$blue-cherk;
 }
 .articles__item__text{
     background: $white;
@@ -25,7 +29,13 @@
     align-items:center; 
 }
 .articles__title{
+    font-size:3vw;
     text-align: center
+}
+.articles__item__image-hovered{
+    height: 100%;
+    width: 50%;
+    background:darken($color: $blue-cherk, $amount: 30%);
 }
 @media only screen and (max-width: 600px){
    .articles{

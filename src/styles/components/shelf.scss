@@ -12,8 +12,25 @@
     justify-content: space-between;
     
 }
-.shelf__layer__item{
+.shopItem{
+    transition: 200ms ;
     height: 100%;
     width:23%;
     background:$light-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color:darken($color: $light-green, $amount: 70%)
+}
+.shopItem:hover{
+    transition: 200ms ;
+    height: 100%;
+    width:23%;
+    color:$light-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    background:darken($color: $light-green, $amount: 70%)
 }

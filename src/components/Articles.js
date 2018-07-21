@@ -1,25 +1,24 @@
 import React from 'react' ;
+import Article from './Article'
 
-export default () => (
-   <div>
-    <h5 class="articles__title">Articles</h5>
-        
-    <div class="articles">
-        <div class="articles__item">
-            <div class="articles__item__image"></div>
-            <div class="articles__item__text">
-            article title and a little of text
+class Articles extends React.Component{
+
+    render(){
+        return(
+            <div>
+                <h5 className="articles__title">Articles</h5>
+                    
+                <div className="articles">
+                    <Article
+                        text="this is first article title"
+                    />
+                    <Article 
+                        text="this is second article title"
+                    />
+                </div>
+
             </div>
-        </div>
-        <div class="articles__item">
-            <div class="articles__item__image"></div>
-            <div class="articles__item__text">
-                article title and a little of text
-
-            </div>
-        </div>
-
-    </div>
-
-   </div> 
-);
+        );
+    };
+}
+export default Articles ;

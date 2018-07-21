@@ -9,33 +9,101 @@
 
 }
 
-.secondHeader__item1{
+.secondHeader__part1{
+    transition: 200ms;
     height: 100%;
     width:32%;
-    background-color: $dark-blue;
+    background-color: $light-green;
+    color:darken($light-green,80%);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.secondHeader__item2{
+.secondHeader__part1:hover{
+    transition: 200ms;
+    height: 100%;
+    width:32%;
+    color: $light-green;
+    background-color: darken($light-green,70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondHeader__part2{
+    transition: 200ms;
     height: 100%;
     width:32%;
     margin:0 1% 0 1% ;
     background-color: $pink;
+    color:darken($color: $pink, $amount: 80%);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.secondHeader__item3{
+.secondHeader__part2:hover{
+    transition: 200ms;
+    height: 100%;
+    width:32%;
+    margin:0 1% 0 1% ;
+    color: $pink;
+    background:darken($color: $pink, $amount: 80%);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondHeader__part3{
+    transition: 200ms;
     height: 100%;
     width:32%;
 }
-.secondHeader__item3__part1{
+.secondHeader__part3__part1{
+    transition: 200ms;
     height: 50%;
     width:100%;
     background-color: $mellow-red;
-}
-.secondHeader__item3__part2{
-    margin-top:2%; 
-    height: 48%;
-    width:100%;
-    background-color: $dark-orange;
+    color: $white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.secondHeader__part3__part1:hover{
+    transition: 200ms;
+    height: 50%;
+    width:100%;
+    background-color:lighten($color:$mellow-red, $amount: 20%) ;
+    color: darken($color:$mellow-red, $amount: 50%);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondHeader__part3__part2{
+    transition: 200ms;
+    height: 50%;
+    width:100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    background-color: $dark-orange;
+}
+.secondHeader__part3__part2:hover{
+    transition: 200ms;
+    height: 50%;
+    width:100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark-orange;
+    background-color:lighten($dark-orange,30%) ;
+}
 @media only screen and (max-width: 600px){
     .secondHeader{
         height: 25vh;

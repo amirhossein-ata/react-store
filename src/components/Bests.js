@@ -1,4 +1,6 @@
 import React from 'react';
+import ShopItem from './ShopItem';
+
 export default () => (
     <div>
         <br></br>
@@ -8,12 +10,22 @@ export default () => (
         </h3>
         
         <div className="bests">
-            <div className="bests__item"></div>
-            <div className="bests__item"></div>
-            <div className="bests__item"></div>
-            <div className="bests__item"></div>
-
-
+            <ShopItem
+                name="item 1" 
+                class_name="shopItem"      
+            />                  
+            <ShopItem
+                name="item 2" 
+                class_name="shopItem"      
+            />
+            <ShopItem
+                name="item 3" 
+                class_name="shopItem"      
+            />  
+            <ShopItem
+                name="item 4" 
+                class_name="shopItem"      
+            />
         </div>
     </div>
 );
