@@ -178,7 +178,7 @@ store.dispatch(addExpense({description:'milk',amount:400,createdAt:3000}));
 // store.dispatch(setText({text:'testing'}));
 // store.dispatch(setText({text:'redux is cool'}));
 // store.dispatch(sortByDate()); //date
-// store.dispatch(sortByAmount()); //amount
+// store.dispatch(sortBy    Amount()); //amount
 
 store.dispatch(setEndDate(7250));
 store.dispatch(setStartDate(1250));
