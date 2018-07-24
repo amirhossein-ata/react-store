@@ -11,7 +11,6 @@ import Footer from './Footer';
 
 export default ()=>(
     <div>
-        <Navbar />
         <Header />
         <SecondHeader />
         <Category />

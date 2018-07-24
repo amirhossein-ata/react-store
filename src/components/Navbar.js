@@ -1,10 +1,11 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 export default (props) => (
     <div className="topnav">
-        <a className="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <NavLink to="/" activeClassName="is-active" exact={true} className="active">Home</NavLink>
+        <NavLink to="/about" activeClassName="is-active">About Us</NavLink>
+        <NavLink to="/dashboard" activeClassName="is-active">Dashboard</NavLink>
+
     </div>
   )
